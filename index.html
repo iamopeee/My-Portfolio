@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="mainnav">
+            <label class="logo">B.Opemipo</label>
+            <ul>
+            <li class="navlist"><a href="">Works</a></li>
+            <li class="navlist"><a href="">Skills</a></li>
+            <li class="navlist"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="back">
+        <img src="image/20220407_190422.jpg" alt="" class="me">
+
+        <h1 id="text" class="mainh1">
+
+        </h1>
+
+        <script type="text/javascript">
+            var i=0,text;
+            text = "A place where your website comes to life."
+    
+            function typing (){
+                if(i<text.length){
+                    document.getElementById("text").innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing,50);
+                }
+            }
+    
+            typing();
+        </script>
+    
+        
+
+        <p class="mainp">Coding is not just about typing elements and attributes. It is about helping organisations to convey a meaningful message. I am here to make that happen so get ready to build your dream website with me.</p>
+
+        <div class="othermain">
+            <ul class="mainnavitems aa">
+                <li class="mainnavitem aaa">
+                      <a href="">Download CV</a>
+
+                      <div class="line"></div>
+                </li> 
+                
+                <li class="mainnavitem aaa">
+                      <a href="">My Works</a>
+
+                      <div class="line"></div>
+                </li>
+
+                <li class="mainnavitem aaa">
+                    <a href="">Contact Me</a>
+
+                    <div class="line"></div>
+              </li>
+     
+             </ul>
+        </div>
+
+        
+    </main>
+
+
+    <main class="mainrate">
+    <div class="rating">
+        <div class="circular-progress">
+            <span class="progress-value">0%</span>
+        </div>
+
+        <span class="text">HTML</span>
+    </div>
+  </main>
+  <script>
+    let circularProgress = document.querySelector(".circular-progress"),
+    progressValue = document.querySelector(".progress-value");
+
+    let progressStartValue = 0,
+        progressEndValue = 20,
+        speed = 100;
+
+    let progress = setInterval(() => {
+        progressStartValue++;
+
+        progressValue.textContent = '${progressStartValue}%'
+
+        if(progressStartValue == progressEndValue){
+            clearInterval(progress);
+        }
+    }, speed);
+  </script>
+
+
+
+</body>
+</html> 

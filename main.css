@@ -1,0 +1,741 @@
+*,html {
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Forum', cursive;
+    background-color: white;
+}
+
+.mainnav {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+.navlist {
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainnav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.mainnav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.navlist a {
+    color: black;
+}
+
+label.logo {
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+}
+
+.mainrate{
+    margin-top: 10%;
+}
+
+.rating{
+    display: flex;
+    width: 25%;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: wheat;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#3e4a7e 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before{
+    content:"";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #f2f5fa;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    color: #3e4a7e;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.aaa:hover{
+    border-bottom: 3px solid blue;
+}
+
+.bbb:hover{
+    border-bottom: 3px solid blue;
+}
+
+.work {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+  
+/* This is the mobile responsiveness */
+@media only screen and (min-width: 0px) and (max-width: 400px){
+
+    .maindiv {
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        
+    }
+
+    .bran {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+.headmainnavitem {
+    font-size: 18px;
+}
+
+.headmainnavitems {
+    margin-left: 75%;
+}
+
+.ss {
+    margin-top: 50px;
+}
+
+.me {
+    width: 80%;
+    margin-left: 0%;
+    border: 10px solid #f2f5fa;
+    border-bottom: #3e4a7e;
+}
+
+.mainnavitems {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.mainnavitem {
+    list-style: none;
+    margin-left: 0%;
+    font-size: 14px;
+}
+
+.headmainnavitem a:hover,
+.headmainnavitem a:active{
+    color: #3e4a7e9f;
+}
+
+.mainnavitem a:hover,
+.mainnavitem a:active{
+    color: #3e4a7e9f;
+}
+
+.mainnavitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.bran {
+    margin-top: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.bran a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    background-color:#3e4a7e;
+    margin-left: 0px;
+}
+
+.othermain {
+    background-color: #f2f5fa;
+    margin-left: 30%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.mainh1 {
+    margin-top: -150px;
+    margin-left: 50%;
+    margin-right: 0px;
+    font-size: 25px;
+    color: black;
+}
+
+.mainp {
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 25%;
+    font-size: 16px;
+    color: black
+}
+
+.aaa {
+    margin-top: 10%;
+    margin-right: 10px;
+}
+
+.aa {
+    margin-left: 0px;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+/* This is the mini tab responsiveness */
+
+@media only screen and (min-width: 401px) and (max-width: 661px){
+
+    .maindiv {
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .bran {
+        font-size: 35px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+.headmainnavitem {
+    font-size: 18px;
+}
+
+.headmainnavitems {
+    margin-left: 75%;
+}
+
+.ss {
+    margin-top: 50px;
+}
+
+.me {
+    width: 80%;
+    margin-left: 0%;
+    border: 10px solid #f2f5fa;
+    border-bottom: #3e4a7e;
+}
+
+.mainnavitems {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.mainnavitem {
+    list-style: none;
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.mainnavitem a:hover,
+.mainnavitem a:active{
+    color: #3e4a7e9f;
+}
+
+.mainnavitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.bran {
+    margin-top: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.bran a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    background-color:#3e4a7e;
+    margin-left: 0px;
+}
+
+.othermain {
+    background-color: #f2f5fa;
+    margin-left: 30%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.mainh1 {
+    margin-top: -150px;
+    margin-left: 50%;
+    margin-right: 0px;
+    font-size: 30px;
+    color: black;
+}
+
+.mainp {
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 25%;
+    font-size: 18px;
+    color: black
+}
+
+.aaa {
+    margin-top: 10%;
+    margin-right: 10px;
+}
+
+.aa {
+    margin-left: 0px;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+
+}
+
+
+
+
+
+/* This is the tab/ipad responsiveness */
+@media only screen and (min-width: 660px) and (max-width: 1000px){
+
+    .maindiv {
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    .bran {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+.headmainnavitem {
+    font-size: 18px;
+}
+
+.headmainnavitems {
+    margin-left: 75%;
+}
+
+.ss {
+    margin-top: 50px;
+}
+
+.me {
+    width: 50%;
+    margin-left: 20%;
+    border: 10px solid #f2f5fa;
+    border-bottom: #3e4a7e;
+}
+
+.mainnavitems {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.mainnavitem {
+    list-style: none;
+    margin-left: 12%;
+    font-size: 18px;
+}
+
+.mainnavitem a:hover,
+.mainnavitem a:active{
+    color: #3e4a7e9f;
+}
+
+.mainnavitem a {
+    text-decoration: none;
+    color: black;
+}
+
+.bran {
+    margin-top: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.bran a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    background-color:#3e4a7e;
+    margin-left: 60px;
+}
+
+.othermain {
+    background-color: #f2f5fa;
+    margin-left: 35%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.mainh1 {
+    margin-top: -100px;
+    margin-left: 60%;
+    margin-right: 0px;
+    font-size: 30px;
+    color: black;
+}
+
+.mainp {
+    margin-left: 65%;
+    margin-right: 0px;
+    font-size: 16px;
+    color: black
+}
+
+.aaa {
+    margin-top: 10%;
+    padding-right: 0px;
+}
+
+.aa {
+    margin-left: 0px;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+
+}
+
+
+/* This is the laptop responsiveness */
+@media only screen and (min-width: 1001px) and (max-width: 1200px){
+    .maindiv {
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .bran {
+        font-size: 27px;
+        margin-left: 50px;
+        margin-bottom: 12px;
+    }
+    
+    .headmainnavitem {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .headmainnavitems {
+        margin-left: 72%;
+    }
+    
+    .ss {
+        margin-top: 50px;
+    }
+    
+    .me {
+        width: 35%;
+        margin-left: 30%;
+        border: 10px solid #f2f5fa;
+        border-bottom: #3e4a7e;
+    }
+    
+    .mainnavitems {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .mainnavitem {
+        list-style: none;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+    
+    .mainnavitem a :hover,
+    .mainnavitem a :active{
+        color: #3e4a7e9f;
+    }
+    
+    .mainnavitem a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .bran {
+        margin-top: 20px;
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    .bran a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .back {
+        background-color:#3e4a7e;
+        margin-left: 60px;
+    }
+    
+    .othermain {
+        background-color: #f2f5fa;
+        margin-left: 550px;
+        margin-top: 7%;
+        padding-bottom: 3%;
+    }
+    
+    .mainh1 {
+        margin-top: -170px;
+        margin-left: 55%;
+        margin-right: 50px;
+        font-size: 35px;
+        color: black;
+    }
+    
+    .mainp {
+        margin-left: 60%;
+        margin-right: 50px;
+        font-size: 18px;
+        color: black
+    }
+    
+    .aaa {
+        margin-top: 10%;
+        padding-right: 0px;
+    }
+    
+    .aa {
+        margin-left: 15px;
+    }
+    
+    .line {
+        border-bottom: 2px solid black;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+/* This is the laptop responsiveness */
+@media only screen and (min-width: 1201px) and (max-width: 1600px){
+
+    .maindiv {
+        margin-left: 0px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    
+    .bran {
+        font-size: 27px;
+        margin-left: 50px;
+        margin-bottom: 12px;
+    }
+    
+    .headmainnavitem {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .headmainnavitems {
+        margin-left: 72%;
+    }
+    
+    .ss {
+        margin-top: 50px;
+    }
+    
+    .me {
+        width: 35%;
+        margin-left: 30%;
+        border: 10px solid #f2f5fa;
+        border-bottom: #3e4a7e;
+    }
+    
+    .mainnavitems {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .mainnavitem {
+        list-style: none;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+    
+    .mainnavitem a :hover,
+    .mainnavitem a :active{
+        color: #3e4a7e9f;
+    }
+    
+    .mainnavitem a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .bran {
+        margin-top: 20px;
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    .bran a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .back {
+        background-color:#3e4a7e;
+        margin-left: 60px;
+    }
+    
+    .othermain {
+        background-color: #f2f5fa;
+        margin-left: 700px;
+        margin-top: 7%;
+        padding-bottom: 3%;
+    }
+    
+    .mainh1 {
+        margin-top: -170px;
+        margin-left: 55%;
+        margin-right: 50px;
+        font-size: 35px;
+        color: black;
+    }
+    
+    .mainp {
+        margin-left: 60%;
+        margin-right: 50px;
+        font-size: 18px;
+        color: black
+    }
+    
+    .aaa {
+        margin-top: 10%;
+        padding-right: 0px;
+    }
+    
+    .aa {
+        margin-left: 15px;
+    }
+    
+    .line {
+        border-bottom: 2px solid black;
+        margin-top: 10px;
+    }
+
+}
+
+
+
