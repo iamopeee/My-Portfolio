@@ -78,34 +78,51 @@
         
     </main>
 
-
-    <main class="mainrate">
-    <div class="rating">
-        <div class="circular-progress">
-            <span class="progress-value">0%</span>
+    <main>
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+    
+            <span class="text">HTML & CSS</span>
         </div>
 
-        <span class="text">HTML</span>
-    </div>
-  </main>
-  <script>
-    let circularProgress = document.querySelector(".circular-progress"),
-    progressValue = document.querySelector(".progress-value");
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+    
+            <span class="text">HTML & CSS</span>
+        </div>
 
-    let progressStartValue = 0,
-        progressEndValue = 20,
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+    
+            <span class="text">HTML & CSS</span>
+        </div>
+    </main>
+
+
+
+    <script>let circularProgress = document.querySelector(".circular-progress"),
+        progressValue = document.querySelector(".progress-value");
+    
+    let progressStartValue = 0,    
+        progressEndValue = 90,    
         speed = 100;
-
+        
     let progress = setInterval(() => {
         progressStartValue++;
-
-        progressValue.textContent = '${progressStartValue}%'
-
+    
+        progressValue.textContent = `${progressStartValue}%`
+        circularProgress.style.background = `conic-gradient(#7d2ae8 ${progressStartValue * 3.6}deg, #ededed 0deg)`
+    
         if(progressStartValue == progressEndValue){
             clearInterval(progress);
-        }
-    }, speed);
-  </script>
+        }    
+    }, speed);</script>
 
 
 
