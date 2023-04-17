@@ -50,7 +50,7 @@
     
         
 
-        <p class="mainp">Coding is not just about typing elements and attributes. It is about helping organisations to convey a meaningful message. I am here to make that happen so get ready to build your dream website with me.</p>
+        <p class="mainp">Coding is not just about typing elements and attributes. It is about helping organizations to convey a meaningful message. I am here to make that happen so get ready to build your dream website with me.</p>
 
         <div class="othermain">
             <ul class="mainnavitems aa">
@@ -78,7 +78,34 @@
         
     </main>
 
-    <main>
+
+    <main class="mainintro">
+        <div>
+            <img src="image/1 (2).jpg" alt="" class="pix">
+        </div>
+    
+        <div class="divintro"> 
+            <section>
+                <h2>Welcome, I'm Banwo Opemipo</h2>
+                <h3> consectetur labore dolorem excepturi esse.</h3>
+                <div class="flexme">
+                    <section class="sec1"> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione delectus ea officiis quasi esse perspiciati quo cum, reiciendis sunt quaerat dignissimos. Incidunt, rem.</p>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorem itaque nisi cum inventore consequuntur.</p>
+                    </section>
+                    <section class="sec2"> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni natus sunt cupiditate laboriosam recusandae dolor aliquid, aspernatur iusto dolorem similique, nisi consequuntur quis in possimus modi. Numquam molestiae distinctio deleniti.</p>
+                    </section>
+                </div>
+            </section>
+        </div> 
+                
+    </main>
+    
+    
+
+    <main class="conmain">
         <div class="container">
             <div class="circular-progress">
                 <span class="progress-value">0%</span>
@@ -88,25 +115,26 @@
         </div>
 
         <div class="container">
-            <div class="circular-progress">
-                <span class="progress-value">0%</span>
+            <div class="circular-progress2">
+                <span class="progress-value2">0%</span>
             </div>
     
-            <span class="text">HTML & CSS</span>
+            <span class="text2">HTML & CSS</span>
         </div>
 
         <div class="container">
-            <div class="circular-progress">
-                <span class="progress-value">0%</span>
+            <div class="circular-progress3">
+                <span class="progress-value3">0%</span>
             </div>
     
-            <span class="text">HTML & CSS</span>
+            <span class="text3">HTML & CSS</span>
         </div>
     </main>
 
 
 
-    <script>let circularProgress = document.querySelector(".circular-progress"),
+    <script>
+    let circularProgress = document.querySelector(".circular-progress"),
         progressValue = document.querySelector(".progress-value");
     
     let progressStartValue = 0,    
@@ -122,7 +150,49 @@
         if(progressStartValue == progressEndValue){
             clearInterval(progress);
         }    
-    }, speed);</script>
+    }, speed);
+
+
+    let circularProgress2 = document.querySelector(".circular-progress2"),
+        progressValue2 = document.querySelector(".progress-value2");
+    
+    let progressStartValue2 = 0,    
+        progressEndValue2 = 90,    
+        speed2 = 100;
+        
+    let progress2 = setInterval(() => {
+        progressStartValue2++;
+    
+        progressValue2.textContent = `${progressStartValue2}%`
+        circularProgress2.style.background = `conic-gradient(#7d2ae8 ${progressStartValue2 * 3.6}deg, #ededed 0deg)`
+    
+        if(progressStartValue2 == progressEndValue2){
+            clearInterval(progress2);
+        }    
+    }, speed2);
+
+
+
+    let circularProgress3 = document.querySelector(".circular-progress3"),
+        progressValue3 = document.querySelector(".progress-value3");
+    
+    let progressStartValue3 = 0,    
+        progressEndValue3 = 90,    
+        speed3 = 100;
+        
+    let progress3 = setInterval(() => {
+        progressStartValue3++;
+    
+        progressValue3.textContent = `${progressStartValue3}%`
+        circularProgress3.style.background = `conic-gradient(#7d2ae8 ${progressStartValue3 * 3.6}deg, #ededed 0deg)`
+    
+        if(progressStartValue3 == progressEndValue3){
+            clearInterval(progress3);
+        }    
+    }, speed3);
+    </script>
+
+
 
 
 
