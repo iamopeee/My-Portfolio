@@ -9,37 +9,16 @@ body {
     background-color: white;
 }
 
-.mainnav {
-    background-color: white;
-    height: 80px;
-    width: 100%;
+header {
+    margin-top: -2%;
 }
 
-.navlist {
-    text-decoration: none;
-    list-style: none;
+.headflex {
+    display: flex;
+    margin-left: -50%;
+    margin-bottom: -7%;
 }
 
-.mainnav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-.mainnav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-.navlist a {
-    color: black;
-}
-
-label.logo {
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 100px;
-}
 
 
 .aaa:hover{
@@ -121,7 +100,16 @@ label.logo {
 /* This is the mobile responsiveness */
 @media only screen and (min-width: 0px) and (max-width: 400px){
     .logo{
-        margin-left: -10%;
+        margin-left: -28%;
+    }
+
+    .logo a {
+        color: black;
+        font-size: 26px;
+    }
+
+    .mainul{
+        margin-top: -27%;
     }
 
     .maindiv {
@@ -237,27 +225,52 @@ label.logo {
 }
 
 .mainintro {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
+    flex-direction: column;
 }
 
 .pix {
-    width: 55%;
+    width: 35%;
 }
 
 
 .flexme {
     display: flex;
+    flex-direction: column;
+}
+
+.sech1{
+    margin-top: -30%;
+    margin-bottom: 20%;
+    margin-left: 37%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.sech3 {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .sec1 {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.sec1 p {
+    margin-right: 10%;
+}
+
+.sec2 p {
+    margin-right: 10%;
 }
 
 .sec2 {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
+    margin-left: 5%;
+   
 }
 
 
@@ -271,14 +284,11 @@ label.logo {
 /* This is the mini tab responsiveness */
 
 @media only screen and (min-width: 401px) and (max-width: 661px){
-    .logo{
-        margin-left: -10%;
-    }
-
     .maindiv {
         margin-left: 0px;
         margin-top: -10px;
         margin-bottom: -10px;
+        
     }
 
     .bran {
@@ -382,27 +392,52 @@ label.logo {
 }
 
 .mainintro {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
+    flex-direction: column;
 }
 
 .pix {
-    width: 55%;
+    width: 35%;
 }
 
 
 .flexme {
     display: flex;
+    flex-direction: column;
+}
+
+.sech1{
+    margin-top: -20%;
+    margin-bottom: 15%;
+    margin-left: 37%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.sech3 {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .sec1 {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.sec1 p {
+    margin-right: 15%;
+}
+
+.sec2 p {
+    margin-right: 17%;
 }
 
 .sec2 {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
+    margin-left: 10%;
+   
 }
 
 }
