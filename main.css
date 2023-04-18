@@ -1313,7 +1313,6 @@ header {
 .divb {
     width: 100%;
     height: auto;
-    background: rgba(39, 19, 223, 0.233);
     display: none;
     padding-bottom: 5%;
 
@@ -1328,7 +1327,7 @@ header {
 }
 
 .show {
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 45%;
     padding: 10px 10px;
     background-color: #3e4a7e;
@@ -1339,3 +1338,55 @@ header {
     text-decoration: none;
     color: white;
 }
+
+.imgdiv {
+    display: flex;
+    margin-left: 0%;
+}
+
+.w {
+    margin-left: 5%;
+}
+
+
+  .wrapper{
+    width: 100%;
+    position: relative;
+  }
+  .wrapper .card{
+    position: absolute;
+    width: 100%;
+    transform: translateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.7s;
+  }
+  .wrapper:hover > .front-face{
+    transform: rotateY(-180deg);
+  }
+  .wrapper .card img{
+    width: 100%;
+  }
+  .wrapper .back-face{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: rotateY(180deg);
+  }
+  .wrapper:hover > .back-face{
+    transform: rotateY(0deg);
+  }
+  
+  .wrapper .back-face .info{
+    text-align: center;
+  }
+  .back-face .info .title{
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .lo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
