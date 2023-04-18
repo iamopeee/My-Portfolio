@@ -19,7 +19,26 @@ header {
     margin-bottom: -7%;
 }
 
+.editbu :hover{
+    background-color: #3e4a7e;
+}
 
+.editb :hover {
+    background-color: white;
+}
+
+.mainlogo {
+    font-size: 30px;
+    margin-left: -100%;
+}
+
+.headsec1 {
+    margin-left: 180%;
+}
+
+.secul{
+    margin-left: -600%;
+}
 
 .aaa:hover{
     border-bottom: 3px solid blue;
@@ -34,6 +53,126 @@ header {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
+::selection{
+    color: #fff;
+    background: #3e4a7e;
+  }
+  .skill-bars{
+    padding: 25px 30px;
+    width: 480px;
+  }
+  .skill-bars .bar{
+    margin: 20px 0;
+  }
+  .skill-bars .bar:first-child{
+    margin-top: 0px;
+  }
+  .skill-bars .bar .info{
+    margin-bottom: 5px;
+  }
+  .skill-bars .bar .info span{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .skill-bars .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+                0 1px rgba(255,255,255,0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #3e4a7e;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .bar .progress-line.html span{
+    width: 90%;
+  }
+  .bar .progress-line.css span{
+    width: 60%;
+  }
+  .bar .progress-line.jquery span{
+    width: 85%;
+  }
+  .bar .progress-line.python span{
+    width: 50%;
+  }
+  .bar .progress-line.mysql span{
+    width: 75%;
+  }
+  .progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line.html span::after{
+    content: "90%";
+  }
+  .progress-line.css span::after{
+    content: "60%";
+  }
+  .progress-line.jquery span::after{
+    content: "85%";
+  }
+  .progress-line.python span::after{
+    content: "50%";
+  }
+  .progress-line.mysql span::after{
+    content: "75%";
+  }
+
+
+
 
 .footer-basic {
     padding:40px 0;
@@ -95,6 +234,80 @@ header {
     margin-bottom:0;
   }
 
+  @media only screen and (min-width: 0px) and (max-width:991px){
+  .secul{
+    margin-top: 20%;
+    margin-left: -600%;
+}
+  }
+
+  @media only screen and (min-width: 650px) and (max-width: 790px){
+    .mainlogo {
+        font-size: 30px;
+        margin-left: -50%;
+    }
+    
+    .headsec1 {
+        margin-left: 150%;
+    }
+    
+    .secul{
+        margin-left: -500%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 550px) and (max-width: 650px){
+    .mainlogo {
+        font-size: 30px;
+        margin-left: -20%;
+    }
+    
+    .headsec1 {
+        margin-left: 120%;
+    }
+    
+    .secul{
+        margin-left: -400%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 430px) and (max-width: 550px){
+    .mainlogo {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    
+    .headsec1 {
+        margin-left: 100%;
+    }
+    
+    .secul{
+        margin-left: -300%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 430px){
+    .mainlogo {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    
+    .headsec1 {
+        margin-left: 70%;
+    }
+    
+    .secul{
+        margin-left: -180%;
+    }
+    
+  }
+
+
+
+  
 
   
 /* This is the mobile responsiveness */
@@ -250,28 +463,30 @@ header {
 
 .sech3 {
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 10%;
 }
 
 .sec1 {
     width: 100%;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 .sec1 p {
     margin-right: 10%;
 }
 
-.sec2 p {
-    margin-right: 10%;
+.sec2 {
+    width: 50%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-left: 0%;
 }
 
-.sec2 {
-    width: 100%;
-    margin-left: 5%;
-   
-}
+.skill-bars{
+    padding: 25px 30px;
+    width: 300px;
+  }
 
 
 }
@@ -289,6 +504,10 @@ header {
         margin-top: -10px;
         margin-bottom: -10px;
         
+    }
+
+    .sech3 {
+        margin-top: 20%;
     }
 
     .bran {
@@ -430,15 +649,18 @@ header {
     margin-right: 15%;
 }
 
-.sec2 p {
-    margin-right: 17%;
+.sec2 {
+    width: 50%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-left: 5%;
 }
 
-.sec2 {
-    width: 100%;
-    margin-left: 10%;
-   
-}
+.skill-bars{
+    padding: 25px 30px;
+    width: 400px;
+  }
+
 
 }
 
@@ -560,29 +782,50 @@ header {
 }
 
 .pix {
-    width: 55%;
+    width: 30%;
+}
+
+.divintro {
+    margin-left: -40%;
 }
 
 
 .flexme {
     display: flex;
+    margin-top: 4%;
 }
 
 .sec1 {
     width: 50%;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .sec2 {
     width: 50%;
-    margin-right: 50px;
+    margin-right: 60px;
+    margin-top: -5%;
+    
 }
+
+.skill-bars{
+    padding: 25px 30px;
+    width: 300px;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .secul{
+        margin-left: -190%;
+    }
 
 }
 
 
 /* This is the laptop responsiveness */
 @media only screen and (min-width: 1001px) and (max-width: 1200px){
+
     .maindiv {
         margin-left: 0px;
         margin-top: -10px;
@@ -695,24 +938,35 @@ header {
     }
     
     .pix {
-        width: 55%;
+        width: 30%;
+    }
+
+    .divintro {
+        margin-left: -40%;
     }
     
     
     .flexme {
         display: flex;
+        margin-top: 4%;
     }
     
     .sec1 {
         width: 50%;
-        margin-right: 50px;
+        margin-right: 30px;
     }
     
     .sec2 {
         width: 50%;
-        margin-right: 50px;
+        margin-right: 100px;
+        margin-top: -5%;
         
     }
+
+    .skill-bars{
+        padding: 25px 30px;
+        width: 350px;
+      }
 }
 
 
@@ -720,6 +974,14 @@ header {
 
 /* This is the laptop responsiveness */
 @media only screen and (min-width: 1201px) and (max-width: 1600px){
+
+    .mainlogo {
+        margin-left: -150%;
+    }
+
+    .secul{
+        margin-left: -150%;
+    }
 
     .maindiv {
         margin-left: 0px;
@@ -833,12 +1095,17 @@ header {
     }
     
     .pix {
-        width: 55%;
+        width: 35%;
+    }
+
+    .divintro {
+        margin-left: -30%;
     }
     
     
     .flexme {
         display: flex;
+        margin-top: 4%;
     }
     
     .sec1 {
@@ -849,10 +1116,12 @@ header {
     .sec2 {
         width: 50%;
         margin-right: 50px;
+        margin-top: -3%;
         
     }
 
 }
+
 
 
 
@@ -867,100 +1136,8 @@ header {
     flex-direction: column;
     align-items: center;
 }
-.circular-progress{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#3e4a7e 3.6deg, #ededed 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.circular-progress::before{
-    content: "";
-    position: absolute;
-    height: 210px;
-    width: 210px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-.progress-value{
-    position: relative;
-    font-size: 40px;
-    font-weight: 600;
-    color: #3e4a7e;
-}
-.text{
-    font-size: 30px;
-    font-weight: 500;
-    color: #606060;
-}
-
-.circular-progress2{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#3e4a7e 3.6deg, #ededed 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.circular-progress2::before{
-    content: "";
-    position: absolute;
-    height: 210px;
-    width: 210px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-.progress-value2{
-    position: relative;
-    font-size: 40px;
-    font-weight: 600;
-    color: #3e4a7e;
-}
-.text2{
-    font-size: 30px;
-    font-weight: 500;
-    color: #606060;
-}
-
-.circular-progress3{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#3e4a7e 3.6deg, #ededed 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.circular-progress3::before{
-    content: "";
-    position: absolute;
-    height: 210px;
-    width: 210px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-.progress-value3{
-    position: relative;
-    font-size: 40px;
-    font-weight: 600;
-    color: #3e4a7e;
-}
-.text3{
-    font-size: 30px;
-    font-weight: 500;
-    color: #606060;
-}
 
 
-.conmain{
-    display: flex;
-}
 
 
 
