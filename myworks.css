@@ -9,10 +9,61 @@
 
 .maind2 {
     width: 50%;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 15%;
 }
 
 .impme {
     width: 60%;
+}
+
+.workmain {
+    display: flex;
+    background-color: #C5C9EE;
+    margin-top: 10%;
+}
+
+.workmainn {
+    display: flex;
+    background-color: #C5C9EE;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+.workmain1 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.workmain3 {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.workmain2 h2 {
+    margin-left: 35%;
+}
+
+.workmain2 p {
+    margin-left: 35%;
+}
+
+.workmain2 button {
+    margin-left: 35%;
+}
+
+.workimg {
+    width: 200%;
+    margin-top: -40%;
+    margin-bottom: -40%;
+}
+
+.buttondesign{
+    background-color: white;
+    border: 2px solid white;
+}
+
+.buttondesign a {
+    color: black;
+    text-decoration: none;
 }
