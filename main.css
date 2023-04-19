@@ -7,6 +7,7 @@ body {
     width: 100%;
     font-family: 'Forum', cursive;
     background-color: white;
+    cursor:pointer;
 }
 
 header {
@@ -19,13 +20,13 @@ header {
     margin-bottom: -7%;
 }
 
-.editbu :hover{
+/* .editbu :hover{
     background-color: #3e4a7e;
 }
 
 .editb :hover {
     background-color: white;
-}
+} */
 
 .mainlogo {
     font-size: 30px;
