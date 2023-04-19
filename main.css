@@ -1305,7 +1305,6 @@ header {
 .diva {
     width: 100%;
     height: auto;
-    background: #0824a362;
     display: block;
     padding-bottom: 5%;
 }
@@ -1321,7 +1320,6 @@ header {
 .divc {
     width: 100%;
     height: auto;
-    background: #0824a362;
     display: none;
     padding-bottom: 5%;
 }
