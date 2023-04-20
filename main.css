@@ -20,13 +20,6 @@ header {
     margin-bottom: -7%;
 }
 
-/* .editbu :hover{
-    background-color: #3e4a7e;
-}
-
-.editb :hover {
-    background-color: white;
-} */
 
 .mainlogo {
     font-size: 30px;
@@ -1258,10 +1251,6 @@ header {
     margin-right: 20%;
   }
 
-  .main_container {
-   margin-left: 5%;
-   margin-right: 5%;
-}
 
 .buttons {
     margin-bottom: 7%;
@@ -1323,7 +1312,7 @@ header {
     padding-bottom: 5%;
 }
 
-.show {
+.showbu {
     margin-top: 30%;
     margin-left: 45%;
     padding: 10px 10px;
@@ -1331,7 +1320,7 @@ header {
     border: 2px solid #3e4a7e;
 }
 
-.show a {
+.showbu a {
     text-decoration: none;
     color: white;
 }
@@ -1392,4 +1381,129 @@ header {
   button:hover {
     border-bottom: 2px solid blue;
     color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 485px) and (max-width: 780px){
+       .svglaptop {
+        width: 150px;
+       }
+    
+       .main3div1 {
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 5%;
+       }
+    
+       .main3div2{
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 5%;
+       }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 485px){
+    .svglaptop {
+     width: 120px;
+    }
+ 
+    .main3div1 {
+     width: 60%;
+     margin-top: 5%;
+     margin-left: 5%;
+    }
+ 
+    .main3div2{
+     width: 40%;
+     margin-left: 10%;
+     margin-top: 30%;
+     margin-right: 5%;
+    }
+}
+
+
+@media only screen and (min-width: 826px) and (max-width: 1297px){
+    .pic {
+        width: 32%;
+        margin-left: 1%;
+    }
+}
+
+
+@media only screen and (min-width: 659px) and (max-width: 826px){
+    .pic {
+        width: 31%;
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 659px){
+    .pic {
+        width: 32%;
+        margin-left: 0.4%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 280px){
+    .mainlogo {
+        margin-left: 30%;
+    }
+
+
+    .pic {
+        width: 32%;
+        margin-left: 0%;
+    }
+
+    .headsec1 {
+        margin-left: 45%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    .p {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
 }
