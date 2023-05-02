@@ -11,9 +11,14 @@
 }
 
 
+
 .workmain {
     display: flex;
     background-color: #C5C9EE;
+    margin-top: 30%;
+}
+
+.abc {
     margin-top: 10%;
 }
 
