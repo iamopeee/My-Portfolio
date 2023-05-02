@@ -28,18 +28,17 @@
     }
 
     .maind2{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 100%;
+        width: 70%;
     }
 
     .maind1{
+        margin-top: -30%;
         width: 30%;
+        margin-left: 50%;
     }
 
     .impme{
-        width: 100%;
-        margin-top: 90%;
+        visibility: hidden;
     }
 }
 
