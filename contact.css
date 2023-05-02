@@ -88,6 +88,11 @@ textarea{
 }
 
 @media screen and (max-width: 880px){
+
+	.con{
+		width: 140%;
+		margin-left: -20%;
+	}
 	.contact-box{
 		grid-template-columns: 1fr;
 	}
