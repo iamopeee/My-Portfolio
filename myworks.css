@@ -15,12 +15,12 @@
 .workmain {
     display: flex;
     background-color: #C5C9EE;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .purple {
     background-color: #e3cdf7;
-    height: 16%;
+    
 }
 
 .abc {
@@ -30,7 +30,11 @@
 .workmainn {
     display: flex;
     background-color: #FEBC0D;
-    margin-top: 20%;
+    margin-top: 15%;
+}
+
+.forward {
+    margin-top: 0%;
 }
 
 .workmain1 {
@@ -73,8 +77,8 @@
 }
 
 .workimg3 {
-    width: 200%;
-    margin-top: 5%;
+    width: 186%;
+    margin-top: 0%;
     margin-bottom: -40%;
 }
 
