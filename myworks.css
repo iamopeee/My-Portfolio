@@ -19,9 +19,8 @@
 
 .workmainn {
     display: flex;
-    background-color: #C5C9EE;
-    margin-top: 20%;
-    margin-bottom: 30%;
+    background-color: #FEBC0D;
+    margin-top: 30%;
 }
 
 .workmain1 {
@@ -34,16 +33,20 @@
     margin-left: 2%;
 }
 
+
 .workmain2 h2 {
-    margin-left: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .workmain2 p {
-    margin-left: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .workmain2 button {
-    margin-left: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .workimg {
@@ -52,9 +55,10 @@
     margin-bottom: -40%;
 }
 
-.workimg3 {
+.workimg2 {
     width: 200%;
-    margin-top: -20%;
+    margin-top: 0%;
+    margin-left: -10%;
     margin-bottom: -40%;
 }
 
