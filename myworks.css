@@ -33,6 +33,10 @@
     margin-top: 15%;
 }
 
+.red {
+    background-color: #FF2F2F;
+}
+
 .forward {
     margin-top: 0%;
 }
@@ -79,6 +83,13 @@
 .workimg3 {
     width: 186%;
     margin-top: 0%;
+    margin-bottom: -40%;
+}
+
+.workimg4 {
+    width: 190%;
+    margin-top: 0%;
+    margin-left: -10%;
     margin-bottom: -40%;
 }
 
