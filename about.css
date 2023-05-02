@@ -15,4 +15,47 @@
 
 .impme {
     width: 60%;
+    margin-top: 10%;
+}
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 650px){
+
+    .maind2{
+        width: 70%;
+    }
+
+    .maind1{
+        width: 30%;
+    }
+
+    .impme{
+        width: 100%;
+        margin-top: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 800px){
+    .impme{
+        margin-top: 50%;
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 950px){
+    .impme{
+        margin-top: 40%;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1150px){
+    .impme{
+        margin-top: 20%;
+    }
 }
