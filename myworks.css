@@ -144,6 +144,7 @@
 
    .abc {
     flex-direction: column;
+    margin-bottom: -15%;
    }
 
    .workimg {
@@ -160,6 +161,10 @@
     
    }
 
+   .foot {
+    margin-top: 10%;
+   }
+
    .workimg3 {
     margin-top: 2%;
     margin-bottom: 10%;
@@ -173,4 +178,6 @@
     width: 300%;
     
    }
+
+   
 }
