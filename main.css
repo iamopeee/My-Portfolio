@@ -5,6 +5,7 @@
 
 body {
     width: 100%;
+    overflow-x: hidden; 
     font-family: 'Forum', cursive;
     background-color: white;
     cursor:pointer;
@@ -1525,5 +1526,5 @@ header {
 
 .spp {
     text-align: center;
-    
+
 }
