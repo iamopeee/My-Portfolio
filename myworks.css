@@ -105,7 +105,17 @@
 }
 
 
+.b1 {
+    margin-left: 33%;
+}
 
+.b2 {
+    margin-left: 5%;
+}
+
+.b3 {
+    margin-left: 5%;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 800px){
     .maind2{
